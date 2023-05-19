@@ -23,7 +23,6 @@ class Home extends Component {
         return (
             <div>
                 <h1>Home</h1>
-
                 {this.state.isLogin ? 
                     <button onClick={() => this.handleLogout()}>Click here to log out</button>
                     : <Link to="/signin">Go to sign in page</Link>
